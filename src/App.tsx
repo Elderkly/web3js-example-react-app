@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import {UtilExample} from './components/UtilExample'
+// import {UtilExample} from './components/UtilExample'
 import {WalletExample} from './components/WalletExample'
 import logo from './logo.png'
 import { web3 } from './web3/web3';
