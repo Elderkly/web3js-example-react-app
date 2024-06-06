@@ -12,6 +12,7 @@ export const WalletExample = () => {
 
     const getBalance = useCallback(() => {
         wallet?.getBalance().then((balance) => {
+            console.log('balance:', balance)
             setBalance(String(web3.utils.fromWei(balance, 'ether')))
         })
     }, [wallet, setBalance])
